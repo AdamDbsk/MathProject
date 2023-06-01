@@ -101,7 +101,7 @@ public class BoidsManager : MonoBehaviour
                 if (Vector2.Angle(curentBoid.velocity.normalized, diretionToTarget.normalized) < boidsDetectionAngle/2)
                 {
                     boidsInRange.Add(boid);
-                    //Debug.DrawLine(curentBoid.position,boid.position);
+                    //Debug.DrawLine(curentBoid.position,boid.position)d;
                 }
             }
         }
